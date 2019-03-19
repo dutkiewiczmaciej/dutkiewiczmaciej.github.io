@@ -50,7 +50,7 @@
     section { padding: 30px 0; }
     
     .row,
-    .hero-text-box { padding: 0 4%; }
+    .hero-text-box { padding: 0 4%;}
     .col { 
         width: 100%;
         margin: 0 0 4% 0;
@@ -87,7 +87,8 @@
     
     
     
-    h1 { font-size: 180%; }
+    h1 { font-size: 180%; 
+        margin-top: 200px;}
     h2 { font-size: 150%; }
     
     .long-copy {
@@ -108,10 +109,52 @@
     
     .works-step { margin-bottom: 20px; }
     .works-step:last-of-type { margin-bottom: 20px; }
+
+    .logo {
+        height: 100px;
+        width: auto;
+        float: left;
+        margin-top: 20px;
+    }
+        
+    .construction-img {
+    display: block;
+    height: 230px;
+    text-align: center;
+    margin: auto;
+    box-shadow: 5px 5px 5px #555; 
+    }
+
+    .meal-photo img {
+        opacity: 0.7;
+        width: 100%;
+        height: auto;
+        -webkit-transform: scale(1.35);
+        -ms-transform: scale(1.35);
+        transform: scale(1.35);
+        -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+        transition: transform 0.5s, opacity 0.5s;
+    }
+
+
+    .meal-photo img:hover {
+        opacity: 1;
+        -webkit-transform: scale(1.30);
+        -ms-transform: scale(1.30);
+        transform: scale(1.30);
+    }
+    
+    .what-we-do-h3 {
+        text-align: justify;
+        font-size: 120%;
+        margin: 0 0;
+    }
+    .list-what-we-do li {
+        padding-bottom: 20px;
+        margin-left: 40px;
+    }
     
 }
-
-
 
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {

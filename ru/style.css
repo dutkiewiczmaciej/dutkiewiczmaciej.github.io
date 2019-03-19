@@ -5,6 +5,12 @@ Light blue color: #177e8c
 
 
 /* ----------------------------------------------- */
+/* RUSSIA RUSSIA RUSSIA RUSSIA */
+/* RUSSIA RUSSIA RUSSIA RUSSIA */
+/* RUSSIA RUSSIA RUSSIA RUSSIA */
+/* ----------------------------------------------- */
+
+/* ----------------------------------------------- */
 /* BASIC SETUP */
 /* ----------------------------------------------- */
 
@@ -18,7 +24,7 @@ html,
 body {
     background-color: #fff;
     color: #555;
-    font-family: 'Poppins', 'Arial', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
@@ -262,8 +268,8 @@ input[type=submit]:active {
 /* ----------------------------------------------- */
 
 header {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/alley.jpeg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/alley.jpeg);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../resources/css/img/alley.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../resources/css/img/alley.jpeg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -281,7 +287,7 @@ header {
 }
 
 .logo {
-    height: 130px;
+    height: 120px;
     width: auto;
     float: left;
     margin-top: 20px;
@@ -304,7 +310,7 @@ header {
 
 .main-nav li {
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 30px;
 }
 
 .main-nav li a:link,
@@ -323,6 +329,7 @@ header {
 .main-nav li a:active {
    border-bottom: 1px solid #aaa;
 }
+
 
 /* Mobile navi */
 .mobile-nav-icon {
@@ -349,9 +356,7 @@ header {
     z-index: 9999;
 }
 
-.sticky .main-nav { 
-    margin-top: 18px; 
-}
+.sticky .main-nav { margin-top: 18px; }
 
 .sticky .main-nav:last-of-type {
     margin-right: 25px;
@@ -581,8 +586,8 @@ header {
 }
 
 .section-cities {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/back-tools.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/back-tools.jpg);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../resources/css/img/back-tools.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../resources/css/img/back-tools.jpg);
     background-size: cover;
     color: #fff;
     background-attachment: fixed;
