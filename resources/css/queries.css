@@ -48,7 +48,25 @@
 @media only screen and (max-width: 767px) {
     body { font-size: 16px; }
     section { padding: 30px 0; }
+
+    header {
+        background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/alley.jpeg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/alley.jpeg);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        background-attachment: none;
+    }
+
+    .section-cities {
+        background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/back-tools.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/back-tools.jpg);
+        background-size: cover;
+        color: #fff;
+        background-attachment: none;
+    }
     
+
     .row,
     .hero-text-box { padding: 0 4%;}
     .col { 
@@ -164,12 +182,11 @@
     border-radius: 200px;
     -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
+    }
 }
-    
+
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
     section { padding: 25px 0; }
     .contact-form {width: 100%; }
-}
-
 }
