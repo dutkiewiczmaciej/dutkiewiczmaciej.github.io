@@ -84,9 +84,9 @@ $(document).ready(function() {
         }        
     });
 
-    /* Fixed mobile nav issue */
+    /* Fixed mobile nav issue - from course forum */
 
-    //This works basically like a media query for jQuery, where we can take different actions depending on the screen width
+        //This works basically like a media query for jQuery, where we can take different actions depending on the screen width
 
     $(window).resize(function(){
         var nav = $('.js--main-nav');
@@ -102,5 +102,35 @@ $(document).ready(function() {
             icon.removeClass('ion-close-round');
         }
         });
+
+    /* Slick - carousel gallery */
+
+    $('.gallery1').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        dots: true,
+        pauseOnDotsHover: true,
+      });
+
+      $('.gallery2').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        dots: true,
+        pauseOnDotsHover: true,
+      });
+
+      $('.gallery3').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        dots: true,
+        pauseOnDotsHover: true,
+      });
+
 });
 

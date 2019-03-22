@@ -195,11 +195,11 @@ h3 {
 
 a:link,
 a:visited {
-    color: #e67e22;
+    color: #999;
     text-decoration: none;
     padding-bottom: 1px;
 
-    /* border-bottom: 1px solid #e67e22;
+    /* border-bottom: 1px solid #999;
     -webkit-transition: border-bottom 0.2s, color 0.2s;
     transition: border-bottom 0.2s, color 0.2s; */
 }
@@ -664,6 +664,7 @@ cite img {
     width: 90%;
     margin-left: 5%;
     box-shadow: 0 2px 2px #efefef;
+    height: 600px;
 }
 
 .plan-box div {
@@ -682,6 +683,9 @@ cite img {
     border: 0;
 }
 
+.plan-box div a {
+    margin: 25px;
+}
 
 .plan-price {
     font-size: 260%;

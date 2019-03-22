@@ -13,6 +13,33 @@
 @media only screen and (max-width: 1023px) {
     body { font-size: 18px; }
     section { padding: 60px 0; }
+
+    .main-nav { display: none; }
+    .mobile-nav-icon {display: inline-block;}
+    
+    .main-nav {
+        float: left;
+        margin-top: 5px;
+    }
+    
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 1px 0;
+        font-size: 90%;
+    }
+    
+    .sticky .main-nav { margin-top: 10px; }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited { padding: 1px 0; }
+    .sticky .mobile-nav-icon { margin-top: 10px; }
+    .sticky .mobile-nav-icon i { color: #555; }
     
     .long-copy {
         width: 80%;
@@ -36,10 +63,16 @@
     .plan-box {
         width: 100%;
         margin-left: 0%;
+        height: 600px;
+    }
+
+    .plan-box div a {
+        margin: 20px;
     }
     
     .plan-price { font-size: 250%; }
     .contact-form { width: 80%; }
+
 }
 
 
@@ -52,10 +85,10 @@
     header {
         background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/alley.jpeg);
         background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/alley.jpeg);
-        background-size: cover;
+        background-size: 100vh;
         background-position: center;
         height: 100vh;
-        background-attachment: none;
+        background-attachment: unset;
     }
 
     .section-cities {
@@ -63,7 +96,7 @@
         background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/back-tools.jpg);
         background-size: cover;
         color: #fff;
-        background-attachment: none;
+        background-attachment: unset;
     }
     
 
@@ -103,8 +136,6 @@
     .sticky .mobile-nav-icon { margin-top: 10px; }
     .sticky .mobile-nav-icon i { color: #555; }
     
-    
-    
     h1 { font-size: 180%; }
     h2 { font-size: 150%; }
     
@@ -115,6 +146,12 @@
     
     .app-screen { width: 40%; }
     .steps-box:first-child { text-align: center; }
+
+    .plan-box {
+        width: 100%;
+        margin-left: 0%;
+        height: 485px;
+    }
     
     .works-step div {
         height: 40px;
@@ -183,10 +220,12 @@
     -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
     }
+
 }
 
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
     section { padding: 25px 0; }
     .contact-form {width: 100%; }
+
 }
