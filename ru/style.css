@@ -201,11 +201,11 @@ h3 {
 
 a:link,
 a:visited {
-    color: #e67e22;
+    color: #222;
     text-decoration: none;
     padding-bottom: 1px;
 
-    /* border-bottom: 1px solid #e67e22;
+    /* border-bottom: 1px solid #222;
     -webkit-transition: border-bottom 0.2s, color 0.2s;
     transition: border-bottom 0.2s, color 0.2s; */
 }
@@ -235,7 +235,6 @@ input[type=submit] {
     background-color: #3265ec;
     border: 1px solid #3265ec;
     color: #fff;
-    margin-right: 15px;
 }
 
 .btn-ghost:link,
@@ -306,6 +305,10 @@ header {
     float: right;
     list-style: none;
     margin-top: 20px;
+}
+
+.main-nav i {
+    padding-right: 40px;
 }
 
 .main-nav li {
@@ -688,6 +691,9 @@ cite img {
     border: 0;
 }
 
+.plan-box div a {
+    margin: 30px;
+}
 
 .plan-price {
     font-size: 260%;

@@ -221,6 +221,14 @@
     transition: background-color 0.2s, border 0.2s, color 0.2s;
     }
 
+    .slick-arrow {
+        display: none!important;
+    }
+
+    .gallery-img {
+        width: 100%;
+    }
+
 }
 
 /* Small phones: from 0 to 480px */

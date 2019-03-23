@@ -191,6 +191,7 @@ h3 {
     margin-top: -5px;
 }
 
+
 /* ----- LINKS ----- */
 
 a:link,
@@ -300,6 +301,10 @@ header {
     float: right;
     list-style: none;
     margin-top: 20px;
+}
+
+.main-nav i {
+    padding-right: 40px;
 }
 
 .main-nav li {
