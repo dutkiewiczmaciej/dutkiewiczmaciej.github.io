@@ -269,6 +269,9 @@ input[type=submit]:active {
     color: #fff;
 }
 
+.logo-partner-grey {
+    filter: grayscale(1);
+}
 
 /* ----------------------------------------------- */
 /* HEADER */

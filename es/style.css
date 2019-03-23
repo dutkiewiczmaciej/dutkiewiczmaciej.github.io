@@ -572,6 +572,9 @@ header {
     margin-top: 10px;
 }
 
+.logo-partner-grey {
+    filter: grayscale(1);
+}
 
 /* ----------------------------------------------- */
 /* CITIES */
