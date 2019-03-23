@@ -111,6 +111,14 @@ h3 {
     box-shadow: 5px 5px 5px #555;
 }
 
+.budowa-img {
+    display: block;
+    height: 300px;
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px #555;
+}
+
 .building-img {
     display: block;
     height: 300px;
@@ -309,7 +317,7 @@ header {
 
 .main-nav li {
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 25px;
 }
 
 .main-nav li a:link,
@@ -318,7 +326,7 @@ header {
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 90%;
+    font-size: 80%;
     border-bottom: 1px solid transparent;
     -webkit-transition: border-bottom 0.2s;
     transition: border-bottom 0.2s;
