@@ -214,3 +214,13 @@
     transform: translate(0, -30px);
     margin-bottom: -30px;
 }
+
+.gallery-text-construction {
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(50, 100, 236, 0.95);
+    transform: translate(0, -30px);
+    margin-bottom: -30px;
+}

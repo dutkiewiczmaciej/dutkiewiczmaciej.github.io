@@ -627,10 +627,19 @@ header {
     text-align: justify;
     font-size: 120%;
     margin: 0 100px;
+    margin-bottom: 50px;
 }
 
 .list-what-we-do li {
     padding-bottom: 20px;
+}
+
+.gallery-img-construction {
+    width: 100%;
+}
+
+.gallery-construction {
+    width: 500px;
 }
 
 /* ----------------------------------------------- */

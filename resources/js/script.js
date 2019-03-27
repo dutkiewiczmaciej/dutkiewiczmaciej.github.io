@@ -132,5 +132,14 @@ $(document).ready(function() {
         pauseOnDotsHover: true,
       });
 
+      $('.gallery4').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        dots: false,
+        pauseOnDotsHover: true,
+      });
+
 });
 

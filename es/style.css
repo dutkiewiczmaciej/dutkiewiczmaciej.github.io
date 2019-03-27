@@ -631,10 +631,19 @@ header {
     text-align: justify;
     font-size: 120%;
     margin: 0 100px;
+    margin-bottom: 50px;
 }
 
 .list-what-we-do li {
     padding-bottom: 20px;
+}
+
+.gallery-img-construction {
+    width: 100%;
+}
+
+.gallery-construction {
+    width: 500px;
 }
 
 /* ----------------------------------------------- */
@@ -694,6 +703,7 @@ cite img {
     width: 90%;
     margin-left: 5%;
     box-shadow: 0 2px 2px #efefef;
+    height: 600px;
 }
 
 .plan-box div {
@@ -710,6 +720,10 @@ cite img {
 .plan-box div:last-child {
     text-align: center;
     border: 0;
+}
+
+.plan-box div a {
+    margin: 25px;
 }
 
 
