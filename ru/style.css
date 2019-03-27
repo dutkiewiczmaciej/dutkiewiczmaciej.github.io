@@ -119,10 +119,11 @@ h3 {
 
 .budowa-img {
     display: block;
-    height: 300px;
+    width: 100%;
     text-align: center;
-    margin-top: 10px;
     box-shadow: 5px 5px 5px #555;
+    margin: auto;
+    margin-bottom: 10px;
 }
 
 .building-img {
@@ -273,6 +274,13 @@ input[type=submit]:active {
     filter: grayscale(1);
 }
 
+.logo-partner-grey:hover,
+.logo-partner-grey:active {
+    filter: grayscale(0);
+}
+
+
+
 /* ----------------------------------------------- */
 /* HEADER */
 /* ----------------------------------------------- */
@@ -392,7 +400,6 @@ header {
 .section-features .long-copy {
     margin-bottom: 30px;
 }
-
 
 /* ----------------------------------------------- */
 /* MEALS */

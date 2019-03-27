@@ -135,6 +135,10 @@
     .sticky .main-nav li a:visited { padding: 1px 0; }
     .sticky .mobile-nav-icon { margin-top: 10px; }
     .sticky .mobile-nav-icon i { color: #555; }
+
+    .hero-text-box {
+        margin-top: 20px;
+    }
     
     h1 { font-size: 180%; }
     h2 { font-size: 150%; }
@@ -242,5 +246,5 @@
 @media only screen and (max-width: 480px) {
     section { padding: 25px 0; }
     .contact-form {width: 100%; }
-
+    
 }

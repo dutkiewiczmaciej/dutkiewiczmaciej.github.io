@@ -125,6 +125,17 @@ h3 {
     box-shadow: 5px 5px 5px #555;
 }
 
+
+.budowa-img {
+    display: block;
+    width: 100%;
+    text-align: center;
+    box-shadow: 5px 5px 5px #555;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+
 .tools-img {
     display: block;
     height: 300px;
@@ -262,7 +273,14 @@ input[type=submit]:active {
     color: #fff;
 }
 
+.logo-partner-grey {
+    filter: grayscale(1);
+}
 
+.logo-partner-grey:hover,
+.logo-partner-grey:active {
+    filter: grayscale(0);
+}
 /* ----------------------------------------------- */
 /* HEADER */
 /* ----------------------------------------------- */
