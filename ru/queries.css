@@ -140,7 +140,11 @@
         margin-top: 20px;
     }
     
-    h1 { font-size: 180%; }
+    h1 { 
+        font-size: 180%;
+        margin-top: 30px;
+     }
+
     h2 { font-size: 150%; }
     
     .long-copy {
@@ -263,5 +267,5 @@
         margin-top: 20px;
         margin-right: 10px;
     }
-        
+
 }
