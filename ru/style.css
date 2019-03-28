@@ -319,6 +319,21 @@ header {
     margin: 5px 0;
 }
 
+.flags {
+    list-style: none;
+    float: right;
+    margin-top: 10px;
+}
+
+.flags li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.flags li:last-child {
+    margin-right: 0;
+}
+
 /* Main navi */
 .main-nav {
     float: right;
@@ -392,6 +407,7 @@ header {
 
 .sticky .logo { display: none; }
 .sticky .logo-black { display: block; }
+.sticky .flags { display: none; }
 
 /* ----------------------------------------------- */
 /* FEATURES */
